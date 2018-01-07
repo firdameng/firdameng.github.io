@@ -700,6 +700,28 @@
 
 
   
+    //_config.yml文件若没有添加enable: true可删除该判断
+          
+      <link rel='stylesheet' href="https://yiyeti.cc/usr/themes/veryse/css/gitalk.css">
+      <script src="https://yiyeti.cc/usr/themes/veryse/css/gitalk.min.js"></script>
+      <script type="text/javascript">
+          var gitalk = new Gitalk({
+            clientID:  'b20f882a1a474b14ffd8', 
+            clientSecret: '2c499223c83fe66727eb23059dc85db932912875',
+            id: window.location.pathname,
+            repo: 'hexo-comments', 
+            owner: 'firdameng', 
+            admin: 'firdameng', 
+            distractionFreeMode: 'true',
+          })
+          gitalk.render('gitalk-container')
+      </script>
+    
+  
+
+
+
+  
 
 
 
